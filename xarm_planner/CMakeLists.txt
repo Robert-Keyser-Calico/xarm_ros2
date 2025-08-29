@@ -161,3 +161,9 @@ install(DIRECTORY
 )
 
 ament_package()
+
+install(PROGRAMS
+  "test/test_xarm_planner_client_pose.py"
+  "test/xarm_planner_flask_api.py"
+  DESTINATION lib/${PROJECT_NAME}
+)
