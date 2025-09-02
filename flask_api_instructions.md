@@ -39,7 +39,7 @@ In your first terminal, source your workspace and start the xArm planner. We'll 
 
 ```bash
 source /home/keyser/ros2_ws/install/setup.bash
-ros2 launch xarm_planner xarm7_planner_fake.launch.py
+ros2 launch xarm_planner xarm6_planner_fake.launch.py
 ```
 
 ### 2.2. Run the Flask API Server
